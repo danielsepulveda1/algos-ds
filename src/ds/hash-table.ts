@@ -1,5 +1,5 @@
 export class HashTable {
-  private _storage: [key: string, value: any][][]
+  private _storage: [key: string, value: unknown][][]
   private _size: number
 
   constructor(size: number) {
